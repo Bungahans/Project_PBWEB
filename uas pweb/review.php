@@ -22,7 +22,7 @@
     <nav class="navigasi" navbar-fixed-stop>
 		<div class="navigasi-wrap">
 			<div class="navigasi-logo">
-				<img src="gambar/sunset.svg" alt="Berbagi-Wisata" id="image-navigasi">
+				<img src="gambar/sunset.png" alt="Berbagi-Wisata" id="image-navigasi">
 			</div>
 			<div class="navigasi-tulisan">
 				<a href="index.php" >HOME</a>
