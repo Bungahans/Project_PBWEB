@@ -7,16 +7,20 @@
 <body>
 	
 	<div class="overlay">
-		<form method="post" class="form" onsubmit="return false;">
+		<form action="proses_signup.php" method="post" class="form">
 			<div class="header">
-				<h4>LOGIN</h4>
+				<h4>SIGNUP</h4>
 				<p>Berbagi-Wisata, Selamat Datang</p>
 			</div>
 			<div class="login-area">
-				<input type="text" class="username" placeholder="Username">
-				<input type="password" class="password" placeholder="Password">
-				<input type="submit" value="Login" class="submit" onclick="openModal()">
-				<a href="#">Forget your password </a>
+				<input type="text" class="username" name="username" placeholder="Username">
+				<input type="password" class="password" name="password" placeholder="Password">
+				<input type="text" class="nama" name="nama" placeholder="Nama Lengkap">
+				<input type="text" class="notlp" name="notlp" placeholder="Nomor Telepon">
+				<input type="text" class="email" name="email" placeholder="email">
+				<input type="text" class="alamat" name="alamat" placeholder="Alamat">
+				<input type="submit" value="Sign Up" class="submit" name="daftar">
+				<input type="submit" value="Login" class="submit" name="masuk">
 			</div>
 		</form>
 	</div>
