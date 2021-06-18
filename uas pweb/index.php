@@ -18,20 +18,19 @@
     </style>
     <title>UAS PWEB</title>
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link rel="stylesheet" type="text/css" href="index.js">
 </head>
 <body>
 <nav class="navigasi" navbar-fixed-stop>
 		<div class="navigasi-wrap">
 			<div class="navigasi-logo">
-				<img src="repo page/file gambar/logoo.png" alt="Berbagi-Wisata" id="image-navigasi">
+				<img src="gambar/sunset.svg" alt="Berbagi-Wisata" id="image-navigasi">
 			</div>
 			<div class="navigasi-tulisan">
 				<a href="index.php" class="nav-aktif">HOME</a>
 				<a href="review.php" class="">REVIEW</a>
 				<a href="index.php#about" class="">ABOUT</a>
                 <a href="index.php#contact" class="">CONTACT</a>
-                <a href="index.php#signup" class="">SIGN UP</a>
+                <a href="signup.php" class="">SIGN UP</a>
 				<a nohref id="welcome">Welcome Wildan!</a>
 			</div>
 		</div>
