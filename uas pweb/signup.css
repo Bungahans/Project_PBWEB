@@ -1,7 +1,7 @@
 body{
 	padding: 0;
 	margin: 0;
-	background: url("file gambar/background\ \(1\).jpg");
+	background: url("gambar/pantai.jpg");
 	background-size: cover;
 }
 .overlay{
@@ -35,7 +35,11 @@ body{
 	padding: 50px 50px 30px 50px;
 }
 .username,
-.password{
+.password,
+.nama,
+.notlp,
+.email,
+.alamat{
 	width: 100%;
 	text-align: center;
 	padding: 13px 0;
@@ -48,7 +52,11 @@ body{
 	transition: .5s;
 }
 .username::placeholder,
-.password::placeholder{
+.password::placeholder,
+.nama::placeholder,
+.notlp::placeholder,
+.email::placeholder,
+.alamat::placeholder{
 	color: #0C3757;
 }
 .username:focus,

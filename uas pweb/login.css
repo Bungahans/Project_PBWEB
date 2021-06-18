@@ -1,0 +1,138 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: url("gambar/pantai.jpg");
+	background-size: cover;
+}
+.overlay{
+	width: 100%;
+	height: 100%;
+	background-color: rgb(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0;
+}
+.form{
+	position: absolute;
+	text-align: center;
+	width: 350px;
+	background-color: #598BA4;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5%;
+	box-shadow: 0 10px 10px 10px rgb(0, 0, 0, .2);
+}
+.header{
+	color: #0C3757;
+	font-size: 22px;
+	font-family: 'M Plus Rounded 1c', sans-serif;
+}
+.header p{
+	font-size: medium;
+}
+.login-area{
+	text-align: center;
+	padding: 50px 50px 30px 50px;
+}
+.username,
+.password{
+	width: 100%;
+	text-align: center;
+	padding: 13px 0;
+	border-radius: 20px;
+	outline: none;
+	border: none;
+	color: white;
+	background-color: #B7D9E2;
+	margin-bottom: 15px;
+	transition: .5s;
+}
+.username::placeholder,
+.password::placeholder{
+	color: #0C3757;
+}
+.username:focus,
+.password:focus{
+	background-color: #114266;
+}
+.submit {
+	width: 150px;
+	padding: 10px;
+	background-color: #0C3757;
+	border-radius: 10px;
+	font-weight: bold;
+	color: #B7D9E2;
+	border: none;
+	outline: none;
+	margin: 10px;
+	transition: .2s;
+	cursor: pointer;
+}
+.submit:hover{
+	background-color: #598BA4;
+}
+.login-area>a{
+	display: block;
+	font-size: x-small;
+	text-decoration: none;
+	color: #0C3757;
+	margin-top: 2px;
+}
+.background-modal{
+	display: none;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+.box{
+	
+	display: none;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+	height: 25%;
+	background-color: #fff;
+	padding: 0;
+	margin: 0;
+	box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4);
+	border-radius: 30px;
+}
+
+.usernameValue{
+	display: none;
+	text-align: center;
+	font-size: 10px;
+	color: #0C3757;
+}
+.usernameValue-F{
+	display: none;
+	text-align: center;
+	font-size: 10px;
+	color: #0C3757;
+}
+
+#logo-x{
+	margin-top: -50px;
+	margin-left: -220px;
+	border-radius: 10px;
+	text-align: center;
+	color:black;
+	font-weight: bolder;
+	font-size: 40px;
+	cursor: pointer;
+	max-height: 30px;
+
+}
+.close{
+	padding: 0;
+	margin: 0;
+	justify-content: center;
+	width: 100%;
+}
